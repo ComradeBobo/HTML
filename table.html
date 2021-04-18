@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Tabulka v HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+        <h2>Slavná osobnost: Tomáš Garrigue Masaryk</h2>
+        <table border=1>
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th>Portrét</th>
+                    <th colspan="2">Základní údaje</th>
+                    <th>Významné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"> <img src="img/masaryk.jpg" height="250" alt="Tomáš Garrigue Masaryk"></td>
+                    <td colspan="2">Jméno a příjmení</td>
+                    <td rowspan="4">Díla</td>
+                </tr>
+                <tr>
+                   <td>Narození</td>
+                   <td>Úmrtí</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                </tr>
+                <tr>
+                    <td>Popisek fotky</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Odkaz na Wikipedii</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Značky a atributy tabulky</h2>
+        <dl>
+            <dt>colspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik sloupců</dd>
+
+            <dt>rowspan</dt>
+            <dd>Atribut zajišťující rozpětí přes několik řádků</dd>
+        </dl>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
