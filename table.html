@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <title>Tabulka v HTML</title>
     <meta charset="UTF-8">
@@ -7,9 +8,15 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/table.css">
 </head>
+
 <body>
     <header>
         <h1>Tabulky v HTML</h1>
+        <ul>
+            <li><a class="active" href="table.html">Tabulky</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="fotogalerie.html">Fotogalerie</a></li>
+        </ul>
     </header>
     <main>
         <h2>Slavná osobnost: Tomáš Garrigue Masaryk</h2>
@@ -24,38 +31,62 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3"> <img src="img/masaryk.jpg" height="250" alt="Tomáš Garrigue Masaryk"></td>
-                    <td colspan="2">Jméno a příjmení</td>
-                    <td rowspan="4">Díla</td>
+                    <td rowspan="3"> <img src="img/masaryk.jpg" height="320" alt="Tomáš Garrigue Masaryk"></td>
+                    <td colspan="2">Tomáš Garrigue Masaryk</td>
+                    <td rowspan="4">Tomáš Garrigue Masaryk se významně podílel na vzniku samostatného Československého
+                        státu, kormě toho ale také napsal nespočet politických děl např. Rusko a Evropa, Nová Evropa:
+                        Stanovisko slovanské nebo Česká otázka. </td>
                 </tr>
                 <tr>
-                   <td>Narození</td>
-                   <td>Úmrtí</td>
+                    <td>*7. března 1850 Hodonín</td>
+                    <td>†14. září 1937 Lány</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                    <td rowspan="2" colspan="2">Byl to československý státník, filozof, sociolog, pedagog a první
+                        prezident Československé republiky. Narodil se 7. března 1850 do chudé rodiny. Během studijního
+                        pobytu v Lipsku se seznámil se svou budoucí manželkou Charlottou Garrigueovou, se kterou se roku
+                        1878 v New Yorku oženil. Během 1. světové války Masaryk cestoval, aby získal podporu pro
+                        vytvoření samostatného Československého státu. Během jeho pobytu v USA byla mezitím vyhlášena
+                        samostatná Československá republika a Masaryk byl zvolen prvním prezidentem. Prezidentem byl
+                        zvolen ještě 3 krát než kolem roku 1935 ze zdravotních důvodů abdikoval. 14. září za přítomnosti
+                        své nejbližší rodiny a Edvarda Beneše a jeho manželky Masaryk umírá. </td>
                 </tr>
                 <tr>
-                    <td>Popisek fotky</td>
+                    <td>Tomáš Garrigue Masaryk kolem roku 1930.</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="4">Odkaz na Wikipedii</td>
+                    <td colspan="4"><a class="odkaz"
+                            href="https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk" target="_blank">Odkaz
+                            na Wikipedii</a></td>
                 </tr>
             </tfoot>
         </table>
         <h2>Značky a atributy tabulky</h2>
         <dl>
-            <dt>colspan</dt>
-            <dd>Atribut zajišťující rozpětí přes několik sloupců</dd>
+            <div>
+                <dt>table</dt>
+                <dd>Značka ohraničující celou tabulku.</dd>
+            </div>
+            <div>
+                <dt>thead</dt>
+                <dd>Záhlaví tabulky</dd>
+            </div>
+            <div>
+                <dt>colspan</dt>
+                <dd>Atribut zajišťující rozpětí přes několik sloupců</dd>
+            </div>
 
-            <dt>rowspan</dt>
-            <dd>Atribut zajišťující rozpětí přes několik řádků</dd>
+            <div>
+                <dt>rowspan</dt>
+                <dd>Atribut zajišťující rozpětí přes několik řádků</dd>
+            </div>
+
         </dl>
     </main>
     <footer>
-
+        <p>&copy; 2021 - Robin Harazim IT1</p>
     </footer>
 </body>
 
