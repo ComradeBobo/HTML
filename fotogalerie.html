@@ -1,26 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotogalerie</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="galerie/dist/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fotogalery.css">
 </head>
+
 <body>
     <header>
         <h1>Fotogalerie v HTML</h1>
         <ul>
-            <li><a href="table.html">Tabulky</a></li>
+            <li><a href="index.html">Tabulky</a></li>
             <li><a href="multimedia.html">Multimedia</a></li>
             <li><a class="active" href="fotogalerie.html">Fotogalerie</a></li>
         </ul>
     </header>
     <main>
+        <h2>Fotogalerie školy</h2>
 
+        <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-1.jpg">
+              <img src="galerie/skola-small-1.jpg" alt="Skola1" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu z parku</div>
+          </div>
+          
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-2.jpg">
+              <img src="galerie/skola-small-2.jpg" alt="Skola2" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu od vchodu</div>
+          </div>
+
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-3.jpg">
+              <img src="galerie/skola-small-3.jpg" alt="Skola3" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu z parku</div>
+          </div>
+
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-4.jpg">
+              <img src="galerie/skola-small-4.jpg" alt="Skola5" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu z parku</div>
+          </div>
+
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-5.jpg">
+              <img src="galerie/skola-small-5.jpg" alt="Skola5" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu z komplexu školy</div>
+          </div>
+
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-6.jpg">
+              <img src="galerie/skola-small-6.jpg" alt="Skola6" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu z komplexu školy</div>
+          </div>
+
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-7.jpg">
+              <img src="galerie/skola-small-7.jpg" alt="Skola7" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu ze zadu</div>
+          </div>
+
+          <div class="gallery">
+            <a data-lightbox="skola" href="galerie/skola-big-8.jpg">
+              <img src="galerie/skola-small-8.jpg" alt="Skola8" width="300" height="200">
+            </a>
+            <div class="desc">Pohled na školu ze zadu</div>
+          </div>
+          <div class="clear"></div>
     </main>
     <footer>
+        <hr>
         <p>&copy; 2021 - Robin Harazim IT1</p>
+        <hr>
     </footer>
+    <script src="galerie/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
+
 </html>

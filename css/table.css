@@ -19,3 +19,10 @@ th {
 caption {
     font-size: large;
 }
+caption {
+    font-size: larger;
+    border-left: black solid 3px;
+    border-right:black solid 3px;
+    border-top:  black solid 3px;
+    background-image: linear-gradient(to right, #468cdb,#3e84e0);
+}

@@ -7,6 +7,7 @@ body {
         border-radius: 5px;
         background-image: linear-gradient(160deg, #1e70b3, #2441be);
         text-align: center;
+        margin-bottom: 50px;
  }
 h1 {
     background-image: linear-gradient(to right, #1f4287,#071e3d,#071e3d);
@@ -70,7 +71,7 @@ ul {
   }
   
   .active {
-    background-color: #108f25;
+    background-image: linear-gradient(#3b0579, #4024be);
   }
   .odkaz {
     color: white;
@@ -84,4 +85,9 @@ ul {
     text-align: center;
     font-size: large;
   }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
 

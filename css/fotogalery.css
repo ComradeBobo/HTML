@@ -1,0 +1,97 @@
+
+  main {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  div.gallery {
+      margin: 5px;
+      border: 7px solid rgb(255, 255, 255);
+      float: left;
+      width: 23%;
+  }
+  div.gallery:hover {
+      border: 7px solid #145fc2;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+      background-color: grey;
+      color: white;
+      font-size: larger;
+  }
+.clear {
+    clear: both;
+}
+@media only screen and (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    div.gallery {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    div.gallery {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    div.gallery {
+        width: 100%;
+    }
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #1f4287,#071e3d,#071e3d);
+}
+h1 {
+    background-image: linear-gradient(to right, #1f4287,#071e3d,#071e3d);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    color:white;
+    text-align: center;
+    border: 2px black solid;
+    background-image: linear-gradient(to right, #1f4287,#071e3d,#071e3d);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-image: linear-gradient(#3b0579, #4024be);
+  }
+  footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+  }
